@@ -3,3 +3,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.header,
+.hero-part,
+.footer {
+  background-color: #1F2937;
+  color: white;
+}
