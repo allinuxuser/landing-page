@@ -41,13 +41,24 @@ a {
   text-decoration: none;
 }
 
+.hero-part {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  padding-right: 30px;
 }
 
 .hero-subtext {
   font-size: 18px;
   color: #E5E7EB
 }
+
+.image {
+  display: flex;
+}
+
