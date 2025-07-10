@@ -95,3 +95,20 @@ button {
   margin-bottom: 5px;
 }
 
+.quote-part {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.quotee {
+  margin-left: 80px;
+}
