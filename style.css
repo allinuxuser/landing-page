@@ -6,6 +6,13 @@ body {
 
 }
 
+.boxes-part,
+.hero-part,
+.quote-part,
+.call-to-action {
+  padding: 150px;
+}
+
 .header,
 .hero-part,
 .footer {
@@ -65,6 +72,15 @@ a {
 button {
   background-color: #3882F6;
   color: white;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  border-color: #E5E7EB;
+  font-weight: 800;
+}
+
+.hero-button {
+  border-color: #3882F6;
 }
 
 .text-above-box {
@@ -111,4 +127,31 @@ button {
 
 .quotee {
   margin-left: 80px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.call-to-action-box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #3882F6;
+  height: 100px;
+  width: 800px;
+  border-radius: 10px;
+  gap: 250px;
+}
+
+.call-to-action-text {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.call-to-action-subtext {
+  color: #E5E7EB;
 }
