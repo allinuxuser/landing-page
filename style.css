@@ -155,3 +155,10 @@ button {
 .call-to-action-subtext {
   color: #E5E7EB;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
